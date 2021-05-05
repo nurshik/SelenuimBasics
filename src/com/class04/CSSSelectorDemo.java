@@ -19,5 +19,6 @@ public class CSSSelectorDemo {
         messageTextBox.sendKeys("Bla bla");
         WebElement showMessage=driver.findElement(By.cssSelector("button[onclick *='show']"));
         showMessage.click();
+        driver.quit();
     }
 }
